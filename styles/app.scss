@@ -7,6 +7,12 @@
 @use './variables/colors';
 @use './variables/fonts';
 
+// RESET
+// Smooths out the rough edges across browsers
+@use './tools/normalize';
+@use 'node_modules/leaflet/dist/leaflet';
+// VARIABLES
+
 // YOUR CODE
 // Starting writing your stuff below here
 .container {
